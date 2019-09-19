@@ -1,6 +1,6 @@
 library(data.table)
 
-GA_Lin<-function(Data,Target,Norm = T,Keep = NULL,Ban = NULL,Trn = 24,Converge_MAE = Inf,Par = T, ...){
+GA_Lin <- function(Data, Target, Norm = T, Keep = NULL, Ban = NULL, Trn = 24, Converge_MAE = Inf, Par = T, ...){
   
   suppressMessages({
     suppressWarnings({
